@@ -1,0 +1,16 @@
+$dot: #891818;
+$dark: #000;
+
+@mixin font-en {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin font-cn {
+    font-family: 'Roboto', "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+.clearfix::after{
+    content: "";     
+    display: block;
+    clear: both; 
+}
